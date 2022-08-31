@@ -1,6 +1,6 @@
 - 👋 ***Hi, I’m Viktor from Odessa (Ukraine)***
 - **My education in programming:** 
-  - **Computer Science** ***(Java)*** *during 6 mounth CS 106A/B: Sranford Programming Methodology*
+  - **Computer Science** ***(Java)*** *during 6 mounth CS 106A/B: Stanford Programming Methodology*
   - **Front-End** ***(JS)*** *during 7 mounth RSSchool*
 - **Languages and Tools:**
     <p align="left" dir="auto"> 
