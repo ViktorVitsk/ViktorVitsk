@@ -1,7 +1,7 @@
 - 👋 ***Hi, I’m Viktor from Odessa (Ukraine)***
 - **My education in programming:** 
   - **Computer Science** ***(Java)*** *during 6 mounth CS 106A/B: Stanford Programming Methodology*
-  - **Front-End** ***(JS)*** *during 7 mounth RSSchool*
+  - **Front-End** ***(JS)*** *during 7 mounth RSSchool* https://app.rs.school/certificate/pupy1aod
 - **Languages and Tools:**
     <p align="left" dir="auto"> 
   <a href="https://www.w3.org/html/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" style="max-width: 100%;"> </a>
