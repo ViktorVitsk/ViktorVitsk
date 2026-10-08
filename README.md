@@ -2,7 +2,7 @@
 
 **Full-stack web developer · Python & TypeScript · AI applications & IoT projects**
 
-I build web applications with Python and TypeScript, from APIs and databases to frontend interfaces. I also experiment with AI-powered applications and small electronics projects using ESP32.
+I build web applications with Python and TypeScript, from APIs and databases to frontend interfaces. I also experiment with AI-powered applications, AI-agent orchestration using DeepSeek Harness (DSH), and small electronics projects using ESP32.
 
 My background includes frontend training, computer science coursework in Java, and independent projects developed with help from AI coding assistants. I am interested in practical software that solves real problems, not just technology for its own sake.
 
@@ -14,6 +14,10 @@ My background includes frontend training, computer science coursework in Java, a
 | **[RS School projects](https://github.com/ViktorVitsk/RSSchool-tasks)** | JavaScript and TypeScript frontend coursework with preserved history: an online store, Async Race, responsive layouts and a migration to TypeScript. |
 | **[ASCP — Agent Security Control Plane](https://github.com/ViktorVitsk/ASCP)** | An archived experiment in constrained AI-agent workflows, deterministic status reporting and optional local-model explanations. Not a production security product. |
 | **[linSec — Linux security watchdog](https://github.com/ViktorVitsk/linSec)** | An archived, AI-assisted exploration of Linux monitoring, SQLite-based observations, baselines and a local interface. Not a claim of professional security expertise or complete host protection. |
+
+## Current work
+
+**AI-agent orchestration with DeepSeek Harness (DSH) — in progress.** I am developing and evaluating workflows for coordinating AI coding agents and different language-model providers, with an emphasis on isolated execution and controlled permissions. This is ongoing experimental work, not a finished platform. It is separate from the archived ASCP security-reporting prototype.
 
 ## Technical background
 
