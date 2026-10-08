@@ -10,6 +10,7 @@ My background includes frontend training, computer science coursework in Java, a
 
 | Project | What it shows |
 | --- | --- |
+| **[Grow System](https://github.com/ViktorVitsk/Grow-System)** | Experimental, AI-assisted ESP32/MicroPython greenhouse controller. I assembled and tested the electronics; the system includes sensor monitoring, bounded pump/relay control, MQTT, Telegram control and a React web dashboard. A hardware-free demo is available; corrected firmware still needs physical retesting. |
 | **[Ogorod Market](https://github.com/ViktorVitsk/ogorod-market)** | An independently developed, AI-assisted full-stack shop prototype for a family farm: FastAPI, Next.js, PostgreSQL, authentication, catalog and cart API. Not deployed as a finished store. |
 | **[RS School projects](https://github.com/ViktorVitsk/RSSchool-tasks)** | JavaScript and TypeScript frontend coursework with preserved history: an online store, Async Race, responsive layouts and a migration to TypeScript. |
 | **[ASCP — Agent Security Control Plane](https://github.com/ViktorVitsk/ASCP)** | An archived experiment in constrained AI-agent workflows, deterministic status reporting and optional local-model explanations. Not a production security product. |
@@ -25,14 +26,11 @@ My background includes frontend training, computer science coursework in Java, a
 - **Web frontend:** JavaScript, TypeScript, React, Next.js; learning and project experience with Angular and Vue.
 - **Tools:** Linux as a development environment, Git, Docker and Docker Compose.
 - **Computer science:** Java coursework, algorithms and data structures; a file-compression assignment using Huffman coding.
-- **Beyond web:** ESP32, sensors, pumps and Telegram-based controls; experiments with conversational AI and tool calling.
+- **Beyond web:** ESP32, sensors, pumps, MQTT and device control through Telegram and web interfaces; experiments with conversational AI and tool calling.
 
-## Other projects being prepared
+## Project being prepared
 
-- **ESP32 irrigation controller:** sensors, pump control and interaction through Telegram. Repository review and publication are pending.
-- **Voice-driven AI mood journal:** a personal application exploring spoken interaction with an LLM and tool calling. Repository review and publication are pending.
-
-These projects are described here from my own development experience; I will link their repositories after reviewing them for publication.
+- **LifeLog — personal AI-assisted journal:** an experimental private-first application exploring voice interaction, browser-side encryption, local data synchronization and user-approved AI suggestions. Its public repository is being prepared.
 
 ## How I develop
 
