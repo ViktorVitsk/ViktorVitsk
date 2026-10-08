@@ -42,7 +42,7 @@ My Linux-monitoring and agent-security repositories reflect exploration and lear
 
 ## Education and training
 
-- **[RS School — JavaScript / Front-end certificate (2022)](https://app.rs.school/certificate/pupy1aod)** — completed frontend training and projects.
+- **[RS School — JavaScript / Front-end certificate (2022, approximately seven months)](https://app.rs.school/certificate/pupy1aod)** — completed frontend training and projects.
 - **Computer science and Java course (2021, approximately four months)** — completed the coursework and programming assignments, including Huffman-based compression; I moved on to RS School instead of taking the final exam, so I do not claim a certificate from this course.
 
 ---
