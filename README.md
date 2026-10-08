@@ -1,38 +1,37 @@
-# Viktor
+# Viktor Stoianov
 
-**Python & TypeScript developer · Linux · Security-minded AI-assisted development**
+**Software development · Python & TypeScript · Linux security · AI-assisted engineering**
 
-I build web applications and explore how to develop software responsibly with AI coding agents. My interests include backend engineering, Linux, system security, and reliable development workflows.
+I build web applications and experiment with safer ways to develop software using AI coding agents. My main interests are backend development, Linux, security boundaries, and engineering workflows where results can be inspected and verified.
 
-I care about whether software *actually works*: clear task boundaries, reviewable changes, meaningful checks, and honest documentation of limitations.
-
-## Focus areas
-
-- **Backend:** Python, FastAPI, Django, REST APIs, SQLAlchemy, PostgreSQL.
-- **Frontend:** TypeScript, JavaScript, React, Next.js; experience with Angular and Vue.
-- **Development environment:** Linux, Docker, Git, containerized applications.
-- **AI-assisted engineering:** working with coding agents, defining scope, reviewing their changes, checking results, and exploring isolated execution environments.
+I value clear scope, reviewable changes, reproducible checks, and documenting what has **not** been proven.
 
 ## Selected projects
 
-| Project | What it demonstrates |
+| Project | Engineering focus |
 | --- | --- |
-| [Ogorod Market](https://github.com/ViktorVitsk/ogorod-market) | An evolving full-stack marketplace prototype with FastAPI, Next.js, PostgreSQL, authentication, and a shopping cart. |
-| [RS School projects](https://github.com/ViktorVitsk/RSSchool-tasks) | Frontend coursework in TypeScript and JavaScript, including an online store, an asynchronous racing application, and other web projects. |
+| **[linSec — Linux security watchdog](https://github.com/ViktorVitsk/linSec)** | Linux state collection, reviewed baselines, SQLite evidence, bounded investigations, and a local read-only interface. Archived prototype; operational coverage and long-term trial remain limited. |
+| **[ASCP — Agent Security Control Plane](https://github.com/ViktorVitsk/ASCP)** | A read-only security-status pipeline with deterministic reports, provenance, and optional local-model explanations that cannot change host security state. Archived pretrial prototype. |
+| **[Ogorod Market](https://github.com/ViktorVitsk/ogorod-market)** | An evolving full-stack marketplace prototype using FastAPI, Next.js, PostgreSQL, authentication, and a shopping cart. |
+| **[RS School coursework](https://github.com/ViktorVitsk/RSSchool-tasks)** | Preserved JavaScript/TypeScript frontend projects and their development history: online store, Async Race, responsive layouts, and migration to TypeScript. |
 
-More engineering projects, including work on Linux security and AI-agent workflows, are being prepared for public release.
+## Technologies and interests
 
-## How I use AI coding agents
+- **Backend:** Python, FastAPI, Django, REST APIs, SQLAlchemy, PostgreSQL.
+- **Frontend:** TypeScript, JavaScript, React, Next.js; coursework and projects with Angular and Vue.
+- **Systems:** Linux, Git, Docker, containerized development, security-focused tooling.
+- **AI-assisted development:** bounded agent tasks, isolation, reviewing generated changes, test quality, evidence and provenance.
 
-I treat AI-generated code as work that needs **review and verification**, not as an automatically trusted result. My workflow emphasizes well-scoped tasks, explicit constraints, inspection of changes, testing where practical, and documenting unresolved risks.
+## How I work
 
-This is an area I am actively learning and developing—not a claim of production-grade autonomous systems.
+I use AI coding agents as development tools—not as a substitute for evaluating the result. I review changes, question test claims, document limitations, and separate explanations from verified facts. Some repositories contain actively AI-assisted implementation and documentation; I do not present that code as entirely handwritten.
 
-## Learning background
+The linSec and ASCP repositories are **sanitized publication copies** of historical engineering work. They preserve development history and decisions while withholding private workstation details. Their READMEs distinguish implemented functionality from unfinished trials or production-level guarantees.
 
-- **[RS School — Front-End / JavaScript certificate](https://app.rs.school/certificate/pupy1aod)**
-- Coursework in computer science (Java) and web development.
+## Learning
+
+**[RS School — JavaScript / Front-end certificate (2022)](https://app.rs.school/certificate/pupy1aod)** · Additional coursework in computer science (Java) and web development.
 
 ---
 
-*Projects are presented with their actual development status; learning projects and experimental prototypes are labeled as such.*
+*Each project's README describes its actual scope, status, and known limitations.*
