@@ -1,48 +1,43 @@
 # Viktor Stoianov
 
-**Full-stack web developer · Python & TypeScript · AI applications & IoT projects**
+**Full-stack developer · Python & TypeScript · AI applications · IoT**
 
-I build web applications with Python and TypeScript, from APIs and databases to frontend interfaces. I also experiment with AI-powered applications, AI-agent orchestration using DeepSeek Harness (DSH), and small electronics projects using ESP32.
+I build web applications and experimental systems that connect user interfaces, APIs, databases, AI models and physical devices. My projects range from an encrypted personal journal to an ESP32 greenhouse controller. I've been studying and building software since 2021.
 
-My background includes frontend training, computer science coursework in Java, and independent projects developed with help from AI coding assistants. I am interested in practical software that solves real problems, not just technology for its own sake.
+## Selected projects
 
-## Selected public projects
+### [LifeLog — encrypted personal journal and AI-assisted logging](https://github.com/ViktorVitsk/LifeLog)
+**React · TypeScript · Dexie/IndexedDB · FastAPI · PostgreSQL**
 
-| Project | What it shows |
-| --- | --- |
-| **[Grow System](https://github.com/ViktorVitsk/Grow-System)** | Experimental, AI-assisted ESP32/MicroPython greenhouse controller. I assembled and tested the electronics; the system includes sensor monitoring, bounded pump/relay control, MQTT, Telegram control and a React web dashboard. A hardware-free demo is available; corrected firmware still needs physical retesting. |
-| **[Ogorod Market](https://github.com/ViktorVitsk/ogorod-market)** | An independently developed, AI-assisted full-stack shop prototype for a family farm: FastAPI, Next.js, PostgreSQL, authentication, catalog and cart API. Not deployed as a finished store. |
-| **[RS School projects](https://github.com/ViktorVitsk/RSSchool-tasks)** | JavaScript and TypeScript frontend coursework with preserved history: an online store, Async Race, responsive layouts and a migration to TypeScript. |
-| **[ASCP — Agent Security Control Plane](https://github.com/ViktorVitsk/ASCP)** | An archived experiment in constrained AI-agent workflows, deterministic status reporting and optional local-model explanations. Not a production security product. |
-| **[linSec — Linux security watchdog](https://github.com/ViktorVitsk/linSec)** | An archived, AI-assisted exploration of Linux monitoring, SQLite-based observations, baselines and a local interface. Not a claim of professional security expertise or complete host protection. |
+An experimental full-stack MVP with browser-side encryption of sensitive text, offline change queues, versioned synchronisation and conflict handling. AI integrations can propose structured actions, which require user confirmation before saving. Includes a local fictional-data demo, database/browser regression tests and [GitHub Actions CI](https://github.com/ViktorVitsk/LifeLog/actions). Built for personal experimentation, not public hosting with sensitive data.
 
-## Current work
+### [Grow System — ESP32 greenhouse automation](https://github.com/ViktorVitsk/Grow-System)
+**ESP32 · MicroPython · MQTT · FastAPI · PostgreSQL · React**
 
-**AI-agent orchestration with DeepSeek Harness (DSH) — in progress.** I am developing and evaluating workflows for coordinating AI coding agents and different language-model providers, with an emphasis on isolated execution and controlled permissions. This is ongoing experimental work, not a finished platform. It is separate from the archived ASCP security-reporting prototype.
+A physical prototype combining soil, climate and water sensors with pump/relay control, Telegram commands and a web dashboard. The firmware separates automation decisions from hardware access and enforces bounded output durations and sensor interlocks. I selected, wired, soldered, flashed and tested the equipment. A [synthetic dashboard preview](https://github.com/ViktorVitsk/Grow-System/blob/main/docs/assets/demo-dashboard.png) is available; the revised firmware still needs a new hardware test and long-term growing trials.
+
+### [Ogorod Market — family-farm storefront prototype](https://github.com/ViktorVitsk/ogorod-market)
+**Next.js · React · TypeScript · FastAPI · SQLAlchemy · PostgreSQL**
+
+A full-stack shop prototype developed in 2025, with authentication, product catalogue management and a cart API. It is not a completed e-commerce service: checkout, orders and payments are not implemented.
 
 ## Technical background
 
-- **Web backend:** Python, FastAPI, Django, REST APIs, SQLAlchemy, PostgreSQL.
-- **Web frontend:** JavaScript, TypeScript, React, Next.js; learning and project experience with Angular and Vue.
-- **Tools:** Linux as a development environment, Git, Docker and Docker Compose.
-- **Computer science:** Java coursework, algorithms and data structures; a file-compression assignment using Huffman coding.
-- **Beyond web:** ESP32, sensors, pumps, MQTT and device control through Telegram and web interfaces; experiments with conversational AI and tool calling.
+- **Backend and data:** Python, FastAPI, SQLAlchemy, PostgreSQL, REST APIs, authentication, migrations; Django experience from independent study.
+- **Frontend:** JavaScript, TypeScript, React, Next.js, HTML/CSS; Angular and Vue through coursework and experiments.
+- **Devices and integrations:** ESP32, MicroPython, sensors, GPIO, MQTT, Telegram bots, LLM APIs and user-confirmed tool actions.
+- **Development and verification:** Git, Linux, Docker Compose, pytest, browser testing and GitHub Actions CI.
 
-## Project being prepared
+## Learning and earlier work
 
-- **LifeLog — personal AI-assisted journal:** an experimental private-first application exploring voice interaction, browser-side encryption, local data synchronization and user-approved AI suggestions. Its public repository is being prepared.
+- **2021 — computer science and Java:** intensive coursework in programming fundamentals, algorithms, data structures and practical Java assignments.
+- **2022 — [RS School, JavaScript / Front-end](https://github.com/ViktorVitsk/RSSchool-tasks):** frontend projects with preserved development history, including responsive layouts, TypeScript and asynchronous applications. [Certificate](https://app.rs.school/certificate/pupy1aod).
+- **2023 — [Telegram GPT voice bot](https://github.com/ViktorVitsk/tg-bot-with-gpt):** an early TypeScript experiment with Telegram, Whisper transcription and GPT integration.
 
-## How I develop
+## Current exploration
 
-I use AI assistants to help design, implement and review software, while working through code and making project decisions myself. I try to keep changes understandable, test important behavior and describe known limitations accurately.
+I'm exploring multi-model coding-agent workflows with [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), sandboxed execution and permission boundaries. Earlier experiments include [ASCP](https://github.com/ViktorVitsk/ASCP) and [linSec](https://github.com/ViktorVitsk/linSec), research prototypes rather than deployed security products.
 
-My Linux-monitoring and agent-security repositories reflect exploration and learning. My main foundation is **full-stack web development**, not professional cybersecurity.
+## How I work
 
-## Education and training
-
-- **[RS School — JavaScript / Front-end certificate (2022, approximately seven months)](https://app.rs.school/certificate/pupy1aod)** — completed frontend training and projects.
-- **Computer science and Java course (2021, approximately four months)** — completed the coursework and programming assignments, including Huffman-based compression; I moved on to RS School instead of taking the final exam, so I do not claim a certificate from this course.
-
----
-
-*Projects are described according to their actual scope and development status. Some implementations and reviews were AI-assisted.*
+I use AI assistants for architecture discussions, implementation and code review. My role includes defining requirements, comparing technical approaches, integrating components and checking results. The projects are openly described as AI-assisted, and their repositories distinguish tested functionality from planned work and known limitations.
